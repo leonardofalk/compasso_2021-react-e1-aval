@@ -60,7 +60,7 @@ searchBooks(PALAVRA_CHAVE).then(function(data) {
 
 ### `updateBook`
 
-> Atualiza um livro para que ele pertença à uma determinada estante. Retorna todas as categorias da estante e os id's de livros pertencentes a cada estante.
+> Atualiza um livro para que ele pertença à uma determinada estante. Retorna todas as categorias da estante e os id's de livros pertencentes a cada estante. Pode ser usado para remover um livro de uma estante, basta passar como argumento qualquer estante diferente das 3 existentes.
 
 ```jsx
 updateBook(BOOK, ESTANTE).then(function(data) {
